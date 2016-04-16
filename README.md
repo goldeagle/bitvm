@@ -1,7 +1,7 @@
 # bitvm
 Bitvm is an pre-packaged Vagrant box that provides you a wonderful development environment without requiring you to install PHP, HHVM, a web server, and any other server software on your local machine. No more worrying about messing up your operating system! Vagrant boxes are completely disposable. If something goes wrong, you can destroy and re-create the box in minutes!
 
-## Base System
+## Base System (2016.4 upd 20160416)
 * debian 8.4.0
 * zsh 5.2
 
@@ -11,8 +11,8 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 
 ## Toolits
 * htop 2.0.1 (apt)
-* iotop 0.6
-* iftop 1.0
+* iotop 0.6 (apt)
+* iftop 1.0 (apt)
 * unzip 6.20 (apt)
 * curl 7.47.0 (apt)
 * vim 7.4.1689 (apt)
