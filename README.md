@@ -1,15 +1,18 @@
 # bitvm
 Bitvm is an pre-packaged Vagrant box that provides you a wonderful development environment without requiring you to install PHP, HHVM, a web server, and any other server software on your local machine. No more worrying about messing up your operating system! Vagrant boxes are completely disposable. If something goes wrong, you can destroy and re-create the box in minutes!
 
-## Base System (2016.4 upd 20160416)
-* debian 8.4.0
-* zsh 5.2
+## Base System (2016.4 upd 20160419)
+* debian 8.4.0 (netinstall)
+* linux-image 4.5.0 (apt)
+* zsh 5.2 (apt)
 
 ## VCS
 * git 2.8.0 (apt)
 * subversion 1.9.3 (apt)
 
 ## Toolits
+* rcconf 3.1 (apt)
+* sysv-rc-conf 0.99 (apt)
 * htop 2.0.1 (apt)
 * iotop 0.6 (apt)
 * iftop 1.0 (apt)
@@ -44,7 +47,7 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 * gcc 5.3.1 (apt)
 * nodejs 5.10.1 (manual)
 * php 7.0.5 (apt)
-* rust 1.7.0 (manual)
+* rust 1.8.0 (manual)
 * go 1.6.1 (apt)
 
 ## Node Toolits & Modules
@@ -63,3 +66,5 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 ## Setting
 * Debian 163 Mirror with SID tag
 * Composer with Chinese Mirror
+* /etc/locale.gen: add zh_CN* en_US*
+* dpkg-reconfigure locales: C.UTF-8
