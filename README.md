@@ -1,14 +1,14 @@
 # bitvm
 Bitvm is an pre-packaged Vagrant box that provides you a wonderful development environment without requiring you to install PHP, HHVM, a web server, and any other server software on your local machine. No more worrying about messing up your operating system! Vagrant boxes are completely disposable. If something goes wrong, you can destroy and re-create the box in minutes!
 
-## Base System (2016.4 upd 20160423)
+## Base System (2016.5 upd 20160528)
 * debian 8.4.0 (netinstall)
-* linux-image 4.5.0 (apt)
+* linux-image 4.5.4 (apt)
 * zsh 5.2 (apt)
 
 ## VCS
 * git 2.8.1 (apt)
-* subversion 1.9.3 (apt)
+* subversion 1.9.4 (apt)
 
 ## Toolits
 * rcconf 3.1 (apt)
@@ -18,8 +18,8 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 * iftop 1.0 (apt)
 * unzip 6.20 (apt)
 * curl 7.47.0 (apt)
-* vim 7.4.1689 (apt)
-* nmap 7.01 (apt)
+* vim 7.4.1829 (apt)
+* nmap 7.12 (apt)
 * siege 3.0.8 (apt)
 * dstat 0.7.2 (apt)
 * byobu 5.87 (apt)
@@ -31,34 +31,33 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 * ranger 1.7.1 (apt)
 
 ## Services
-* nginx 1.9.10 (apt)
+* nginx 1.10.0 (apt)
 * mysql 5.6.30 (apt)
-* mariadb 10.0.24 (apt)
 * mongodb 2.4.14 (apt)
 * postgre 9.5 (apt)
-* sqlite3 3.12.2 (apt)
-* redis 3.0.7 (apt)
+* sqlite3 3.13.0 (apt)
+* redis 3.2.0 (apt)
 * varnish 4.1.2 (apt)
-* memcached 1.4.21 (apt)
+* memcached 1.4.25 (apt)
 * beanstalkd 1.10 (apt)
-* vsftpd 3.0.3 (apt)
+* proftpd 1.3.5 (apt)
 
 ## Language Compiler & SDK
 * gcc 5.3.1 (apt)
-* nodejs 5.10.1 (manual)
-* php 7.0.5 (apt)
-* rust 1.8.0 (manual)
+* nodejs 6.2.0 (manual)
+* php 7.0.7 (apt)
+* rust 1.8.0 (apt)
 * go 1.6.1 (apt)
 
 ## Node Toolits & Modules
-* npm 3.8.7 (manual)
-* grunt 1.0.1 (npm)
+* npm 3.8.9 (manual)
+* grunt 1.2.0 (npm)
 * gulp 3.9.1 (npm)
 * bower 1.7.9 (npm)
 * coffee-script 1.10.0 (npm)
 
 ## PHP Toolits & Modules
-* composer 1.0.2 (manual)
+* composer 1.1.1 (apt)
 * hhvm 3.12.1 (apt)
 * laravel/installer 1.3.3 (composer)
 * laravel/lumen-installer 1.0.2 (composer)
