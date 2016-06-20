@@ -62,6 +62,7 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 ## PHP Toolits & Modules
 * composer 1.1.1 (apt)
 * hhvm 3.12.1 (apt)
+× top-think/think 5.0RC3 (composer)
 * laravel/installer 1.3.3 (composer)
 * laravel/lumen-installer 1.0.2 (composer)
 
