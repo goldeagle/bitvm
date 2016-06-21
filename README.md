@@ -4,9 +4,9 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 ## Passwords
 The account:password of the virtual machine (and mysqld) is root:toor.
 
-## Base System (2016.5 upd 20160528)
+## Base System (2016.5 upd 20160621)
 * debian 8.4.0 (netinstall)
-* linux-image 4.5.4 (apt)
+* linux-image 4.6.2 (apt)
 * zsh 5.2 (apt)
 
 ## VCS
@@ -34,23 +34,23 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * ranger 1.7.1 (apt)
 
 ## Services
-* nginx 1.10.0 (apt)
+* nginx 1.10.1 (apt)
 * mysql 5.6.30 (apt)
 * mongodb 2.4.14 (apt)
 * postgre 9.5 (apt)
 * sqlite3 3.13.0 (apt)
-* redis 3.2.0 (apt)
+* redis 3.2.1 (apt)
 * varnish 4.1.2 (apt)
 * memcached 1.4.25 (apt)
 * beanstalkd 1.10 (apt)
 * proftpd 1.3.5 (apt)
 
 ## Language Compiler & SDK
-* gcc 5.3.1 (apt)
-* nodejs 6.2.0 (manual)
+* gcc 5.4.0 (apt)
+* nodejs 6.2.2 (manual)
 * php 7.0.7 (apt)
-* rust 1.8.0 (apt)
-* go 1.6.1 (apt)
+* rust 1.9.0 (apt)
+* go 1.6.2 (apt)
 
 ## Node Toolits & Modules
 * npm 3.8.9 (manual)
@@ -60,7 +60,7 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * coffee-script 1.10.0 (npm)
 
 ## PHP Toolits & Modules
-* composer 1.1.1 (apt)
+* composer 1.1.2 (apt)
 * hhvm 3.12.1 (apt)
 * top-think/think 5.0RC3 (composer)
 * laravel/installer 1.3.3 (composer)
