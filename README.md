@@ -37,7 +37,7 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * nginx 1.10.1 (apt)
 * mysql 5.6.30 (apt)
 * mongodb 2.4.14 (apt)
-* postgre 9.5 (apt)
+* postgre 9.5+175 (apt)
 * sqlite3 3.13.0 (apt)
 * redis 3.2.1 (apt)
 * varnish 4.1.2 (apt)
@@ -48,12 +48,13 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 ## Language Compiler & SDK
 * gcc 5.4.0 (apt)
 * nodejs 6.2.2 (manual)
-* php 7.0.7 (apt)
+* php 7.0.8 (apt)
+* php 5.6.23 (apt)
 * rust 1.9.0 (apt)
 * go 1.6.2 (apt)
 
 ## Node Toolits & Modules
-* npm 3.8.9 (manual)
+* npm 3.9.5 (manual)
 * grunt 1.2.0 (npm)
 * gulp 3.9.1 (npm)
 * bower 1.7.9 (npm)
