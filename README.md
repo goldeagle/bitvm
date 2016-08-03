@@ -6,7 +6,7 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 
 ## Base System (2016.5 upd 20160714)
 * debian 8.4.0 (netinstall)
-* linux-image 4.6.3-1 (apt)
+* linux-image 4.6.4-1 (apt)
 * zsh 5.2 (apt)
 
 ## VCS
@@ -39,7 +39,7 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * mongodb 2.4.14 (apt)
 * postgre 9.5+175 (apt)
 * sqlite3 3.13.0 (apt)
-* redis 3.2.1 (apt)
+* redis 3.2.1-3 (apt)
 * varnish 4.1.3 (apt)
 * memcached 1.4.25 (apt)
 * beanstalkd 1.10 (apt)
@@ -47,11 +47,11 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 
 ## Language Compiler & SDK
 * gcc 5.4.0-6 (apt)
-* nodejs 6.2.2 (manual)
-* php 7.0.8-5 (apt)
+* nodejs 6.3.1 (manual)
+* php 7.0.9-1 (apt)
 * php 5.6.23-1 (apt)
-* rust 1.9.0 (apt)
-* go 1.6.2 (apt)
+* rust 1.10.0 (apt)
+* go 1.6.3 (apt)
 
 ## Node Toolits & Modules
 * npm 3.9.5 (manual)
