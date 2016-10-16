@@ -4,9 +4,9 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 ## Passwords
 The account:password of the virtual machine (and mysqld) is root:toor.
 
-## Base System (2016.9 upd 20160906)
+## Base System (2016.10 upd 20161016)
 * debian 8.6.0 (netinstall)
-* linux-image 4.7.6-1 (apt)
+* linux-image 4.7.5-1 (apt)
 * zsh 5.2 (apt)
 
 ## VCS
