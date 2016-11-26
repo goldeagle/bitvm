@@ -4,18 +4,18 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 ## Passwords
 The account:password of the virtual machine (and mysqld) is root:toor.
 
-## Base System (2016.10 upd 20161016)
+## Base System (2016.11 upd 20161126)
 * debian 8.6.0 (netinstall)
-* linux-image 4.7.5-1 (apt)
-* zsh 5.2 (apt)
+* linux-image 4.8.5-1 (apt)
+* zsh 5.2-5 (apt)
 
 ## VCS
-* git 2.9.3 (apt)
+* git 2.10.2 (apt)
 * subversion 1.9.4 (apt)
 
 ## Toolits
 * rcconf 3.2 (apt)
-* sysv-rc-conf 0.99 (apt)
+* sysv-rc-conf 0.99-7 (apt)
 * htop 2.0.2 (apt)
 * iotop 0.6 (apt)
 * iftop 1.0 (apt)
@@ -30,11 +30,11 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * multitail 6.4.2 (apt)
 * mtr 0.86 (apt)
 * socat 1.7.3.1 (apt)
-* iptraf 3.0.0 (apt)
+* iptraf-ng 1.1.4 (apt)
 * ranger 1.7.1 (apt)
 
 ## Services
-* nginx 1.10.1 (apt)
+* nginx 1.10.2 (apt)
 * mysql 5.6.30-1 (apt)
 * mongodb 2.6.12-3 (apt)
 * postgre 9.6.0 (apt)
@@ -46,11 +46,11 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * proftpd 1.3.5a (apt)
 
 ## Language Compiler & SDK
-* gcc 6.1.1 (apt)
-* nodejs 6.8.1 (apt)
-* php 7.0.11-1 (apt)
+* gcc 6.2.0-13 (apt)
+* nodejs 6.9.1 (apt)
+* php 7.0.12-1 (apt)
 * php 5.6.26-1 (apt)
-* rust 1.12.0 (apt)
+* rust 1.13.0 (apt)
 * go 1.7.1 (apt)
 
 ## Node Toolits & Modules
@@ -61,10 +61,10 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * coffee-script 1.10.0 (npm)
 
 ## PHP Toolits & Modules
-* composer 1.2.1 (manual)
-* top-think/think 5.0.1 (composer)
+* composer 1.2.2 (manual)
+* top-think/think 5.0.3 (composer)
 * laravel/installer 1.3.3 (composer)
-* laravel/lumen-installer 1.0.2 (composer)
+* laravel/lumen-installer 1.0.3 (composer)
 
 ## Setting
 * Debian 163 Mirror with SID tag
