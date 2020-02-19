@@ -4,14 +4,13 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 ## Passwords
 The account:password of the virtual machine (and mysqld) is root:toor.
 
-## Base System (2020.2 upd 20200208)
+## Base System (2020.2 upd 20200218)
 * debian 10.2 (netinstall)
-* linux-image 4.13.4-2 (apt)
-* zsh 5.4.1 (apt)
+* linux-image 5.4.0-14 (apt)
+* zsh 5.7.1 (apt)
 
 ## VCS
-* git 2.15rc1 (apt)
-* subversion 1.9.7 (apt)
+* git 2.25.0 (apt)
 
 ## Toolits
 * htop 2.2.0-2 (apt)
@@ -30,6 +29,7 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * socat 1.7.3.3-2 (apt)
 * iptraf-ng 1.1.4-+b1 (apt)
 * ranger 1.9.3-1 (apt)
+* net-tools 1.6.0 (apt)
 
 ## Services
 * nginx 1.16.1-3 (apt)
