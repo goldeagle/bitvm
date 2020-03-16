@@ -4,20 +4,23 @@ Bitvm is an pre-packaged Vagrant box that provides you a wonderful development e
 ## Passwords
 The account:password of the virtual machine (and mysqld) is root:toor.
 
-## Base System (2020.2 upd 20200218)
+## Base System (2020.2 upd 20200315)
 * debian 10.2 (netinstall)
 * linux-image 5.4.0-14 (apt)
 * zsh 5.7.1 (apt)
 
 ## VCS
-* git 2.25.0 (apt)
+* git 2.25.1 (apt)
+* tig 2.4.1 (apt)
 
 ## Toolits
 * htop 2.2.0-2 (apt)
+* glances 3.1.3 (apt)
 * iotop 0.6-24 (apt)
 * iftop 1.0~pre4-6 (apt)
 * unzip 6.0-25 (apt)
 * curl 7.67.0-2 (apt)
+* axel 2.17.5 (apt)
 * vim 8.1.2269-1 (apt)
 * nmap 7.80-1 (apt)
 * siege 4.0.4-1 (apt)
@@ -32,7 +35,7 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 * net-tools 1.6.0 (apt)
 
 ## Services
-* nginx 1.16.1-3 (apt)
+* nginx 1.17.9 (apt)
 * mariadb 10.3.22-1 (apt)
 * postgre 12.1-2q (apt)
 * sqlite3 3.31.1-1 (apt)
@@ -44,12 +47,14 @@ The account:password of the virtual machine (and mysqld) is root:toor.
 
 ## Language Compiler & SDK
 * gcc 9.2.1-3-1 (apt)
-* nodejs 13.8.0 (manual)
-* php 7.4.1-1 (apt)
-* rust 1.41.0 (manual)
+* cmake 3.16.3 (apt)
+* clang 9.0.1-9 (apt)
+* nodejs 13.11.0 (manual)
+* php 7.4.3-4-build1 (apt)
+* rust 1.42.0 (manual)
 
 ## PHP Toolits & Modules
-* composer 1.9.3 (manual)
+* composer 1.10.1 (manual)
 
 ## Setting
 * Debian 163 Mirror with SID tag
